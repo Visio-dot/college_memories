@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(135deg, #f0e68c, #f7d0b0); /* Soft yellow to peach gradient */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Pink background for header */
+    padding: 20px;
+    color: white;
+}
+
+.about-section {
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ff1493; /* Pink border */
+    border-radius: 15px; /* Slightly rounded corners */
+    background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Center the section */
+}
+
+.about-image {
+    width: 100%; /* Make image responsive */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for image */
+}
+
+p {
+    font-size: 18px; /* Increase font size for readability */
+    color: #333; /* Solid color for the text */
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #6a5acd; /* Solid color for footer */
+}

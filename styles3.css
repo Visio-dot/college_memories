@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa, #80deea); /* Light blue gradient */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Pink background for header */
+    padding: 20px;
+    color: white;
+}
+
+.video-container {
+    margin: 20px auto;
+    max-width: 800px; /* Limit video width */
+    border: 5px solid #ff1493; /* Pink border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Round corners for video */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    margin: 20px;
+    font-size: 18px;
+    color: #333; /* Dark text for readability */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+    border-radius: 10px; /* Rounded corners */
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #6a5acd; /* Solid color for footer */
+}

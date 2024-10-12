@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa, #80deea); /* Light blue gradient */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Pink background for header */
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+.conclusion-section {
+    margin: 20px auto;
+    max-width: 600px; /* Center the content */
+    font-size: 18px;
+    color: #333; /* Dark text for readability */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s; /* Animation effect */
+}
+
+.conclusion-section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.highlight {
+    font-size: 22px; /* Slightly larger font for emphasis */
+    margin: 20px 0; /* Space around the highlight */
+    color: #ff1493; /* Pink color for emphasis */
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #6a5acd; /* Solid color for footer */
+}
+
+footer p {
+    font-weight: bold; /* Make footer text bold */
+    margin: 10px 0; /* Add spacing */
+}
